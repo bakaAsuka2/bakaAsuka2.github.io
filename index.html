@@ -69,6 +69,45 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-c-structure" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/11/19/c-structure/" class="article-date">
+  <time class="dt-published" datetime="2024-11-19T08:52:31.000Z" itemprop="datePublished">2024-11-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/11/19/c-structure/">c_structure</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>关于表达式求值:<br>如8 2 &#x2F; 2 + 5 6 * - \0<br>8 2存入栈内,<br>遇到&#x2F;,8和2出栈求值,8&#x2F;2&#x3D;4,<br>4入栈,2入栈<br>遇到+,4和2出栈求值,4+2&#x3D;6,<br>6入栈,5入栈,6入栈,<br>遇到*,6和5出栈求值,6*5&#x3D;30,<br>30入栈<br>遇到-,6和30出栈求值,<br>6-30&#x3D;-24,故该表达式为-24<br>概括而言,遇到数字入栈,遇到符号出栈,选择栈的最上层的两个出栈求值,求出的值再次入栈</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/11/19/c-structure/" data-id="cm3o857s700006wvj4tyv9ryg" data-title="c_structure" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/11/19/test/" class="article-date">
@@ -188,6 +227,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/11/19/c-structure/">c_structure</a>
+          </li>
         
           <li>
             <a href="/2024/11/19/test/">test</a>
